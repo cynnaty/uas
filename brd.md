@@ -11,26 +11,26 @@ Sistem ini bertujuan untuk:
 - Menjalin kerja sama dengan perusahaan teknologi dalam rekrutmen peserta terbaik.
 
 ## **3. Ruang Lingkup Proyek**
-**Fitur utama yang akan dikembangkan:**
-1. **Manajemen Peserta**:
-   - Registrasi peserta
-   - Profil peserta (data pribadi, riwayat pelatihan, sertifikasi, dll.)
-   - Statistik performa dan evaluasi
-2. **Jadwal Pelatihan & Workshop**:
-   - Pengelolaan jadwal kursus dan workshop
-   - Notifikasi dan pengingat sesi pelatihan
-3. **Klasifikasi & Sertifikasi Peserta**:
-   - Sistem penilaian berbasis skor
-   - Sertifikasi berbasis blockchain untuk transparansi
-4. **Manajemen Proyek & Penugasan**:
-   - Pembuatan dan pengelolaan proyek
-   - Kolaborasi peserta dalam proyek tim
-5. **Laporan Keuangan & Sponsorship**:
-   - Manajemen pendanaan dan sponsor
-   - Laporan biaya operasional
-6. **Sistem Reward & Gamifikasi**:
-   - Leaderboard dan pencapaian peserta
-   - Poin dan badge berdasarkan performa
+Fitur utama yang akan dikembangkan:
+- **Manajemen Peserta:**
+   1. Registrasi peserta
+   2. Profil peserta (data pribadi, riwayat pelatihan, sertifikasi, dll.)
+   3. Statistik performa dan evaluasi
+- **Jadwal Pelatihan & Workshop:**
+   1. Pengelolaan jadwal kursus dan workshop
+   2. Notifikasi dan pengingat sesi pelatihan
+- **Klasifikasi & Sertifikasi Peserta:**
+   1. Sistem penilaian berbasis skor
+   2. Sertifikasi berbasis blockchain untuk transparansi
+- **Manajemen Proyek & Penugasan:**
+   1. Pembuatan dan pengelolaan proyek
+   2. Kolaborasi peserta dalam proyek tim
+- **Laporan Keuangan & Sponsorship:**
+   1. Manajemen pendanaan dan sponsor
+   2. Laporan biaya operasional
+- **Sistem Reward & Gamifikasi:**
+   1. Leaderboard dan pencapaian peserta
+   2. Poin dan badge berdasarkan performa
 
 ## **4. Pemangku Kepentingan (Stakeholders)**
 - **Manajemen TechEdu Indonesia**: Pemilik dan pengelola sistem.
