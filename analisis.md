@@ -48,13 +48,13 @@ Porsi pelatihan dibagi berdasarkan aspek penting dalam teknologi dan informasi:
 - **Soft Skills & Problem-Solving** (keterampilan komunikasi, berpikir kritis) - 15%
 - **Analisis Data & Evaluasi** - 10%
 
-**Detail Teknologi yang Digunakan**:
+Detail Teknologi yang Digunakan:
 - **Cloud Computing** untuk penyimpanan data peserta dan pelatihan.
 - **AI & Machine Learning** untuk analisis performa peserta.
 - **Blockchain** untuk sistem sertifikasi yang transparan dan valid.
 - **Big Data Analytics** untuk memantau perkembangan peserta dan efektivitas kurikulum.
 
-**Modul Pelatihan yang Lebih Rinci**:
+Modul Pelatihan yang Lebih Rinci:
 - **Basic IT & Digital Literacy**: Mengenal dasar-dasar komputer, internet, dan keamanan data.
 - **Web & Mobile Development**: Belajar HTML, CSS, JavaScript, serta framework seperti React dan Flutter.
 - **Data Science & AI**: Menganalisis data dengan Python, SQL, serta membangun model AI dengan TensorFlow atau Scikit-Learn.
