@@ -1,0 +1,29 @@
+@startuml flowchart2
+
+start
+
+:Peserta Registrasi;
+if (Registrasi Berhasil?) then (Ya)
+  :Login ke Sistem;
+  :Akses Dashboard;
+  if (Pelatihan Tersedia?) then (Ya)
+    :Daftar Pelatihan;
+    :Mengikuti Pelatihan;
+    :Mengerjakan Tugas & Evaluasi;
+    if (Lulus?) then (Ya)
+      :Menerima Sertifikat (Blockchain);
+      :Masuk ke Leaderboard;
+    else (Tidak)
+      :Mengulang Pelatihan;
+    endif
+  else (Tidak)
+    :Menunggu Pelatihan Baru;
+  endif
+else (Tidak)
+  :Registrasi Ulang;
+endif
+
+:Keluar dari Sistem;
+stop
+
+@enduml

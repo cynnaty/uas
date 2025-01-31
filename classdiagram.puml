@@ -1,0 +1,54 @@
+@startuml classdiagram2
+class Peserta {
+  - idPeserta: String
+  - nama: String
+  - email: String
+  - riwayatPelatihan: List<Pelatihan>
+  - sertifikasi: List<Sertifikat>
+  + registrasi()
+  + lihatStatistik()
+}
+
+class Pelatihan {
+  - idPelatihan: String
+  - namaPelatihan: String
+  - jadwal: String
+  - instruktur: Instruktur
+  + kelolaJadwal()
+  + notifikasiPengingat()
+}
+
+class Instruktur {
+  - idInstruktur: String
+  - nama: String
+  - spesialisasi: String
+  + evaluasiPeserta()
+}
+
+class Proyek {
+  - idProyek: String
+  - namaProyek: String
+  - daftarPeserta: List<Peserta>
+  + kelolaProyek()
+  + kolaborasiTim()
+}
+
+class Sertifikat {
+  - idSertifikat: String
+  - namaSertifikat: String
+  - validasiBlockchain: Boolean
+}
+
+class RewardSystem {
+  - leaderboard: Map<String, Integer>
+  + berikanPoin()
+  + tampilkanLeaderboard()
+}
+
+Peserta "1" -- "*" Pelatihan
+Peserta "1" -- "*" Proyek
+Peserta "1" -- "*" Sertifikat
+Pelatihan "1" -- "1" Instruktur
+Proyek "1" -- "*" Peserta
+Peserta "1" -- "1" RewardSystem
+@enduml

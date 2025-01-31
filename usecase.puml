@@ -1,0 +1,32 @@
+@startuml usecase
+
+left to right direction
+
+actor Peserta
+actor Instruktur
+actor Admin
+actor Perusahaan
+
+rectangle "Sistem Manajemen Pelatihan" {
+  Peserta -- (Registrasi & Login)
+  Peserta -- (Mengakses Dashboard)
+  Peserta -- (Mendaftar Pelatihan)
+  Peserta -- (Mengikuti Pelatihan)
+  Peserta -- (Mengerjakan Tugas & Evaluasi)
+  Peserta -- (Menerima Sertifikat)
+  Peserta -- (Melihat Leaderboard)
+
+  Instruktur -- (Membuat & Mengelola Pelatihan)
+  Instruktur -- (Memberikan Evaluasi)
+  Instruktur -- (Menentukan Kelulusan)
+
+  Admin -- (Mengelola Data Peserta)
+  Admin -- (Mengelola Data Pelatihan)
+  Admin -- (Mengelola Sertifikasi)
+  Admin -- (Melihat Laporan & Statistik)
+  
+  Perusahaan -- (Merekrut Peserta Terbaik)
+  Perusahaan -- (Melihat Statistik Peserta)
+}
+
+@enduml
