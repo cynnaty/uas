@@ -11,11 +11,11 @@ Company profile ini akan mencerminkan visi, misi, dan kegiatan utama perusahaan 
   4. Menciptakan sistem penilaian dan pemantauan perkembangan peserta secara berkelanjutan.
   5. Memfasilitasi peserta untuk mendapatkan sertifikasi dan pekerjaan di bidang teknologi.
 - **Layanan Utama**:
-  - Identifikasi bakat digital
-  - Program pelatihan terstruktur
-  - Manajemen proyek dan pengembangan skill
-  - Pusat data dan analitik performa peserta
-  - Konsultasi dan bimbingan karier teknologi
+  1. Identifikasi bakat digital
+  2. Program pelatihan terstruktur
+  3. Manajemen proyek dan pengembangan skill
+  4. Pusat data dan analitik performa peserta
+  5. Konsultasi dan bimbingan karier teknologi
 
 ---
 
